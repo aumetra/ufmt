@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## Changed
+
+- updated to `syn` v2
+
+## Fixed
+
+- fixed warnings around using deprecated functions
+- fixed potential UB by removing `std::mem::uninitialized` usage
+
 ## [v0.2.0] - 2022-08-10
 
 ## Changed
